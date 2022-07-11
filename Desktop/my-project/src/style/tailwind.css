@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+
+
+.btn {
+    @apply text-white py-2 px-8 rounded shadow border-2 select-none;
+}
+
+.btn-all{
+    @apply bg-blue-500 border-blue-500;
+}
+
+.btn-print{
+    @apply bg-gray-500 border-gray-500;;
+}
+
+.btn-print:hover{
+    @apply hover:bg-transparent hover:text-gray-500 transition-all duration-300;
+}
+
+.btn-download{
+    @apply bg-green-500 border-green-500;;
+}
+
+.btn-download:hover {
+    @apply hover:bg-transparent hover:text-green-500 transition-all duration-300
+}
+
+.btn-send{
+    @apply bg-blue-500 border-blue-500;;
+}
+
+.btn-send:hover{
+    @apply hover:bg-transparent hover:text-blue-500 transition-all duration-300;
+}
+
+
+.footer li{
+    @apply my-2 mx-1;
+}
+
+.btn-all:hover{
+    @apply hover:bg-transparent hover:text-blue-500 transition-all duration-300
+}
+
+
+.btn{
+    @apply inline-block px-5 py-3 rounded-lg text-sm uppercase tracking-wider font-semibold;
+}
+
+.btn:focus{
+    @apply outline-none shadow-sm;
+}
+
+.btn-indigo{
+    @apply bg-indigo-500 text-white
+}
+
+.btn-indigo:hover {
+    @apply bg-indigo-400;
+}
+
+
+.btn-indigo:active{
+    @apply bg-indigo-600;
+}
+
+.btn-gray{
+    @apply bg-gray-500 text-gray-800;
+}
+
+.btn-gray:hover {
+    @apply bg-gray-300;
+}
+
+.btn-gray:active{
+    @apply bg-gray-600;
+}
+
+@screen sm{
+    .btn{
+        @apply text-base;
+    }
+}
+@tailwind utilities;
