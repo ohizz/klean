@@ -5,9 +5,12 @@
   font-family:  poppins;
   /* font-size: 10px; */
  }
-
+.App{
+  max-width: 1250px;
+  margin: 0 auto;
+}
  .firstHeader{
-  margin: 1.5rem;
+  margin: 2.5rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,9 +18,37 @@
 
  }
 
+ .banner{
+  position: relative;
+  border: 1px solid #EAECF0;
+  padding: 1rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+ }
+
+ .Bg{
+  background: #999;
+ }
+
+.bigCircle{
+  text-align: center;
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+  border-radius: 50%;
+  line-height: 150px;
+}
+
+.mainBanner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
 .cardOverallBackground{
   margin: 0 auto;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   border: 1px solid #EAECF0;
 
 }
@@ -35,13 +66,20 @@
   font-weight: 900;
 }
 
-.cardHeading button{
+.cardHeading button, .mainBanner button{
   outline: 0;
   border: 0;
   height: 50px;
   border: 1px solid #EAECF0;
   background-color: transparent;
-  width: 100px;
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+.thumbsup{
+  margin-right: 10px;
 }
 
 .cardBackground{
@@ -66,10 +104,16 @@
   padding: .5rem
 }
 
+.imgBackground{
+  background-color: #bbb;
+  text-align: center;
+  padding: 1.5rem;
+}
 .dataImage{
   background: #333;
   margin-bottom: .3rem;
-  height: 160px;
+  height: 100px;
+  width: 100px;
 }
 
 .dataName{
