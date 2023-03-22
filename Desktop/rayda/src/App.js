@@ -13,12 +13,21 @@ const App =() => {
    console.log(data)
    })
    },[]);
+   console.log(data)
   return (
     <div className="App">
       <Header/>
-     {data.map(data => (
+      <div className='cardOverallBackground'>
+        <div className='cardHeading'>
+        <p className='feature'>Feature Items</p>
+        <button>View Action</button>
+        </div>
+        <div className='cardBackground'>
+        {data.map(data => (
       <DataHub name={data.name} title={data.title} image={data.image} bid={data.bid}/>
      ))}
+        </div>
+    </div>
     </div>
   );
 }
