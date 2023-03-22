@@ -118,11 +118,12 @@
 
 .dataName{
   font-size: .6rem;
+  margin: .7rem 0;
 }
 
 .dataName span{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .ko{
@@ -132,6 +133,16 @@
   background-color: #bbb;
   border-radius: 50%;
   line-height: 25px;
+}
+
+.koray{
+  display: flex;
+  flex: 1;
+}
+
+.bidder{
+  display: flex;
+  flex: 1;
 }
 .dataTitle{
   font-size: .7rem;
