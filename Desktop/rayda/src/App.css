@@ -8,15 +8,36 @@
 .App{
   max-width: 1250px;
   margin: 0 auto;
+  width: 95%;
+}
+
+button:hover{
+  cursor: pointer;
 }
  .firstHeader{
+  position: relative;
   margin: 2.5rem 0;
+  padding-bottom: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #EAECF0;
 
  }
+.numberTwo{
+  position: absolute;
+  top: 27px;
+  right: -11px;
+  text-align: center;
+  height: 20px;
+  width: 20px;
+  color: #FFFFFF;
+  font-size: .8rem;
+  background-color: red;
+  border-radius: 50%;
+  line-height: 25px;
+  display: block;
+}
 
  .banner{
   position: relative;
@@ -27,7 +48,13 @@
  }
 
  .Bg{
-  background: #999;
+  position: relative;
+  background: linear-gradient(to right, blueviolet, #ed8f50);
+  height: 192px;
+  /* left: -112px; */
+  top: 0px;
+  padding: 2rem;
+  border-radius: 12px;
  }
 
 .bigCircle{
@@ -46,6 +73,9 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  position: relative;
+  bottom: 30px;
+  left: 20px;
 }
 
 .mainBannerFlex{
@@ -121,6 +151,14 @@
   align-items: center;
   border-radius: 12px;
 }
+
+.mainBanner button{
+  width: 130px;
+  height: 28px;
+  font-size: .7rem;
+  margin-right: 4rem;
+}
+
 .thumbsup{
   margin-right: 10px;
 }
