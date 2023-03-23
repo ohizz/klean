@@ -32,11 +32,13 @@
 
 .bigCircle{
   text-align: center;
-  height: 150px;
-  width: 150px;
-  background-color: blue;
+  height: 100px;
+  width: 100px;
+  background-color: #EAECF0;
+  border: 4px solid #FFFFFF;
+  box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
   border-radius: 50%;
-  line-height: 150px;
+  line-height: 100px;
 }
 
 .mainBanner{
@@ -44,6 +46,47 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+}
+
+.mainBannerFlex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainBannerFlex .smallLi{
+  font-size: .7rem;
+  font-weight: 500;
+  line-height: 20px;
+  position: relative;
+  top: 30px;
+  right: 290px;
+  display: flex;
+}
+
+.mainBannerFlex p {
+  font-weight: 700;
+  margin-left: 1.4rem;
+}
+
+.popOne{
+  background: #f7e3d8;
+  color: #F79009;
+  margin-right: .5rem;
+  padding: .1rem .5rem .1rem 1.2rem;
+  border-radius: 12px;
+  position: relative;
+}
+
+.popOne:after{
+  position: absolute;
+  bottom: 10px;
+  left: 8px;
+  content: '';
+  background: #F79009;
+  width: 6px;
+  height: 6px;
+  display: block;
 }
 
 .cardOverallBackground{
@@ -62,7 +105,7 @@
   border-bottom: 1px solid #EAECF0;
 }
 
-.feature, .dataTitle, .dataBid{
+.feature, .dataTitle, .dataBid span{
   font-weight: 900;
 }
 
@@ -105,7 +148,8 @@
 }
 
 .imgBackground{
-  background-color: #bbb;
+  background-color: #F2F4F7;
+  border-radius: 12px;
   text-align: center;
   padding: 1.5rem;
 }
@@ -162,7 +206,8 @@
   color: #999;
 }
 .dataButton{
-  background-color: rgb(30, 30, 193);
+  background: #004CCC;
+  border: 1px solid #004CCC;
   color: white;
   border: 0;
   outline: 0;
