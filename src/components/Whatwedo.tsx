@@ -10,7 +10,7 @@ const Whatwedo = () => {
     <p className='text-[16px] my-4 text-center font-medium tracking-tighter'>Our cleaning services helps your community with a sanity environment and hygiengy. we help people of all type save time and resource with a easy cleaning service that work</p>
     </div>
     <div className='md:max-w-[1000px] my-0 mx-auto flex flex-col gap-y-10 md:flex-row  lg:justify-center items-center'>
-    <div className='flex justify-center items-center'>
+    <div className='flex md:justify-center items-center'>
     <span className='py-2 px-8'>
         <div className='text-2xl'>
         <MdOutlineCleaningServices/>
@@ -22,7 +22,7 @@ const Whatwedo = () => {
     </div>
 </div>
 
-<div className='flex justify-center items-center'>
+<div className='flex md:justify-center items-center'>
     <span className='py-2 px-8'>
         <div className='text-2xl'>
         <GiVacuumCleaner/>
@@ -34,7 +34,7 @@ const Whatwedo = () => {
     </div>
 </div>
 
-<div className='flex justify-center items-center'>
+<div className='flex md:justify-center items-center'>
     <span className='py-2 px-8'>
         <div className='text-2xl'>
         <GiSparkles/>

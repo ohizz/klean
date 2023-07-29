@@ -5,7 +5,7 @@ import {SiCnn} from "react-icons/si"
 
 const Banner = () => {
  return( 
-    <div className='mt-20 px-20 md:px-[5%] flex flex-col md:flex-row justify-center item-center '>
+    <div className='mt-20 md:px-[5%] flex flex-col md:flex-row justify-center item-center'>
 <div className='flex md:block justify-center items-center flex-col'>
         <h1 className='text-center md:text-left text-zinc-100 font-bold md:w-5/6 text-4xl md:text-6xl leading-tight'>
             The way to own a Klean house
@@ -22,7 +22,7 @@ const Banner = () => {
     </div>
     <div className='relative'>
 <img src="https://images.pexels.com/photos/6195950/pexels-photo-6195950.jpeg?auto=compress&cs=tinysrgb&w=400" className='border border-zinc-950 rounded w-full md:w-[1000px]' alt="cleaner"></img>
-<div className='bg-zinc-950 absolute h-[15vh] bottom-0 z-99 w-full'>hhhh</div>
+<div className='bg-zinc-950 absolute h-[15vh] bottom-0 z-99 w-full'></div>
     </div>
     </div>
  )
