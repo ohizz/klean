@@ -2,7 +2,7 @@ import React from "react";
 
 const Whatwedo = () => {
  return(
-    <div className=" mt-10 px-8 ">
+    <div className=" mt-10 px-4">
         <div className=" flex flex-wrap md:flex-nowrap justify-between item-center flex-col md:flex-row">
                 <img src="https://hellamaid.ca/wp-content/uploads/2023/02/3-5.jpg" className="object-cover h-[250px] md:h-[450px] w-[100%] md:w-[45%] rounded-lg"/>
             
