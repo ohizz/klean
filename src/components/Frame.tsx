@@ -2,6 +2,7 @@ import React from "react";
 import Home from "./Header";
 import Banner from "./Banner";
 import Whatwedo from "./Whatwedo"
+import Why from "./Why";
 
 
 
@@ -11,6 +12,7 @@ const Frame = () => {
 <div className="font-luck">
     <Home/>
     <Banner/>
+    <Why/>
 <Whatwedo/>
     </div>
    </div>

@@ -10,7 +10,7 @@ const Banner = () => {
         <h1 className='text-zinc-900 text-4xl md:text-6xl leading-tight lg:leading-tight pb-8 lg:font-black'>
             Your <span className='text-blue-600'>cleaning service</span> for everything cleaning
         </h1>
-        <button className=' w-2/4 bg-zinc-900 text-sm font-thin text-slate-200 rounded p-4 self-center md:self-stretch'>Try it out now</button>
+        <button className='w-full md:w-2/4 bg-zinc-900 text-sm font-thin text-slate-200 rounded p-4 self-center md:self-stretch'>Try it out now</button>
        
     </div>
 
