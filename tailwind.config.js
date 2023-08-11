@@ -7,16 +7,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        montserrat: ['Montserrat', defaultTheme.fontFamily.sans],
-        sora:['Sora', defaultTheme.fontFamily.sans],
-        kanit:['Kanit', defaultTheme.fontFamily.sans],
-        space: ['Space Grotesk', defaultTheme.fontFamily.san],
-        unbounded: ['Unbounded', defaultTheme.fontFamily.san],
-        wix: ['Wix Madefor Display', defaultTheme.fontFamily.san],
-        Lato: ['Lato', defaultTheme.fontFamily.san],
-        Raleway: ['Raleway', defaultTheme.fontFamily.san],
-        play: ['Play', defaultTheme.fontFamily.san],
-        dm: ['DM Sans', defaultTheme.fontFamily.san]
+        montserrat: ['Montserrat', 'serif'],
+        raleway: ['Raleway', 'serif'],
+        sans: ['Open Sans', 'serif'],
+        luck: ['Luckiest Guy', 'serif']
        },
     },
   },
